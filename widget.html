@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Widget: /r/worldnews</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.css" />
+<script src="./script.js"></script>
+<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#tabSheet").tabs();
+		getNews();
+	});
+</script>
+
+</head>
+<body>
+
+	<div id="tabSheet">
+		<ul>
+			<li><a href="#Story1">Story1</a></li>
+			<li><a href="#Story2">Story2</a></li>
+			<li><a href="#Story3">Story3</a></li>
+			<li><a href="#Story4">Story4</a></li>
+			<li><a href="#Story5">Story5</a></li>
+		</ul>
+		<div id="Story1"></div>
+		<div id="Story2"></div>
+		<div id="Story3"></div>
+		<div id="Story4"></div>
+		<div id="Story5"></div>
+	</div>
+
+
+</body>
+</html>
